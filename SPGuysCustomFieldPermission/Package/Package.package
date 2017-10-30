@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f377e24a-7159-4164-ac72-6d321382825c" solutionId="f377e24a-7159-4164-ac72-6d321382825c" resetWebServer="false" sharePointProductVersion="15.0" name="SPGuysCustomFieldPermission" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="SPGuysCustomFieldPermissionLibrary.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\SPGuysCustomFieldPermissionLibrary\SPGuysCustomFieldPermissionLibrary.csproj">
+      <safeControls>
+        <safeControl assemblyName="SPGuysCustomFieldPermissionLibrary" namespaceName="SPGuysCustomFieldPermissionLibrary" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <customAssembly location="HtmlAgilityPack.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\SPGuysCustomFieldPermissionLibrary\dll\HtmlAgilityPack.dll">
+      <safeControls>
+        <safeControl assemblyName="HtmlAgilityPack" namespaceName="HtmlAgilityPack" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="8edb26af-a5ff-4f2d-a31f-e30687f05c13" />
+    <featureReference itemId="ac104c0d-5878-4622-8d2a-f9c6bf31a351" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="463d431a-f377-4fe7-a03b-1d49b0c7dc5d" />
+    <projectItemReference itemId="69a0d77c-0c18-444c-8a4a-f8da85d6b21a" />
+    <projectItemReference itemId="5a5ed590-4c4b-4f53-b977-20fb416a1048" />
+  </projectItems>
+</package>

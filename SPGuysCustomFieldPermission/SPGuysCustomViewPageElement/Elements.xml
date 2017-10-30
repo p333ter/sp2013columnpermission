@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Control Id="AdditionalPageHead"
+           Sequence="333"
+           ControlAssembly="SPGuysCustomFieldPermissionLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a8a8bdc8ce8bd55f"
+           ControlClass="SPGuysCustomFieldPermissionLibrary.PageHeadDelegateControl" />
+</Elements>

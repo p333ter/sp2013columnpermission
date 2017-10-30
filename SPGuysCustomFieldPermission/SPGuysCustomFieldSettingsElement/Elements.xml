@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="SPGuysCustomFieldSettings"
+              GroupId="Permissions"
+              Location="Microsoft.SharePoint.ListEdit"
+              Rights="ManageLists"
+              Sequence="998"
+              Title="Column Permission (Powered by SPGuys)">
+    <UrlAction Url="~site/_layouts/SPGuysCustomFieldPermission/ListFields.aspx?List={ListId}"/>
+  </CustomAction>
+</Elements>

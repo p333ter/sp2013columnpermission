@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="SPGuysCustomViewSettings"
+              GroupId="Permissions"
+              Location="Microsoft.SharePoint.ListEdit"
+              Rights="ManageLists"
+              Sequence="999"
+              Title="View Permission (Powered by SPGuys)">
+    <UrlAction Url="~site/_layouts/SPGuysCustomFieldPermission/ListViews.aspx?List={ListId}"/>
+  </CustomAction>
+</Elements>
