@@ -1,6 +1,7 @@
 # This Solution is only for SharePoint 2013!
 
 Features:
+
 Column Permission
 - Hide or Read Only Columns in a List Forms (New/Edit/Display)
 - Hide Columns in Views
